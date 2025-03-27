@@ -1,1 +1,297 @@
-game.Players.LocalPlayer:Kick("The script you currently use is Outdated By Rolesha4")
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+local w = VLib:Window("Unit spawner", "Old Toilet TD [🎄CHRISTMAS] ", "G")
+local tab = w:Tab("Unit Placer must get in a game frist")
+
+tab:Button("Place Chef TV Man",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Chef TV Man" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+tab:Button("Place Santa TV Man",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Santa TV Man" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+tab:Button("Green Laser",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Green Laser Cameraman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+tab:Button("Engineer Cameraman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Engineer Cameraman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+tab:Button("Upgraded Titan Speakerman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Upgraded Titan Speakerman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tab:Button("Titan Cinemaman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Titan Cinemaman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+
+tab:Button("Upgraded Titan Cameraman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Upgraded Titan Cameraman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+tab:Dropdown("Dropdown",{"Option 1", "Option 2", "Option 3", "Option 4", "Option 5"},function(t)
+  print(t)
+end)
+
+tab:Colorpicker("Colorpicker",Color3.fromRGB(255, 1, 1),function(t)
+  print(t)
+end)
+
+tab:Textbox("Textbox", true,function(t)
+  print(t)
+end)
+
+tab:Label("Label")
+
+local tab = w:Tab("Godlys")
+tab:Button("Titan upraded tvman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Upgraded Titan Cinemaman" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+
+
+
+
+
+tab:Button("Titan Presented man",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Titan Present Man" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
+local tab = w:Tab("Mythical best units titan")
+
+
+
+
+
+
+
+
+
+
+tab:Button("Place Sinster",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Sinister Titan TV Man" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args)) 
+end)
+
+
+
+
+local tab = w:Tab("Op units")
+
+
+
+tab:Button("Place Scientist Tvman",function()
+  local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+local unitName = "Scientist TV Man" -- put unit here
+local spawnDistance = -0 -- Distance behind the player to spawn the unit
+
+local spawnPosition = humanoidRootPart.CFrame * CFrame.new(0, 0, spawnDistance)
+
+local args = {
+    [1] = unitName,
+    [2] = spawnPosition
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("SpawnTower"):InvokeServer(unpack(args))
+end)
